@@ -17,7 +17,7 @@ data "oci_core_services" "all" {
 }
 
 module "service_gateway" {
-  source = "github.com/cybercapybara/terraform-oci-service-gateway"
+  source = "github.com/moveeeax/terraform-oci-service-gateway"
 
   compartment_id = var.compartment_id
   vcn_id         = var.vcn_id
